@@ -21,10 +21,13 @@ Step1: run he url - http://localhost:8088/swagger-ui.html#/
 Step2: Where we can see the swagger dashboard consist of List of operation of HTTP methods like GET, POST, DLEETE and list of REST Api operation developed
 Step3: To ScheduleMessage, access the url "http://localhost:8088/swagger-ui.html#!/message-controller/scheduleMessageUsingPOST", in which it uses HTTP POST method to creat the message body and deliveryDate of message with below payload
 **Expected Value:** 
+```
 {
   "deliveryDate": "2021-07-13T16:09:46.295Z",
   "message": "string"
-}
+} 
+```
+
 Step4: Similarly to the above steps, we can do HTTP operations like GET, POST, DELETE, PUT, UPDATE, DELETE ALL and GET ALL by using the Listed Operation using Swagger API
 ![image](https://user-images.githubusercontent.com/63526345/125488731-165dc592-ec56-43b3-be5d-b82ab1f004f0.png)
 
